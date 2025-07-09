@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <button id="scrollBtn" class="scroll-to-top">↑</button>
+
+<!-- 🔰 HEADER -->
+<header class="site-header">
+  <a href="#" target="main">
+    <div class="site-logo">
+      <img src="C:\Users\csl\Desktop\BubuScripts\Png's\Logo.png" alt="BubuScripts"/>
+    </div>
+  </a>
+
+  <!-- 🍔 Hamburger Button -->
+  <button class="hamburger" id="hamburgerBtn">☰</button>
+
+  <!-- 🌐 Site Navigation -->
+  <nav class="site-nav" id="navMenu">
+    <a href="#">Home</a>
+    <a href="#" id="contactPopupBtn">Contact Us</a>
+    <div class="search-container">
+      <input type="text" placeholder="Search..." />
+      <button>
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\glass.png" alt="Search Icon"/>
+      </button>
+    </div>
+  </nav>
+</header>
+
+
+  <!-- 📰 MAIN CONTENT -->
+  <main class="content-wrapper">
+    <div class="posts-section">
+      <div class="posts-container">
+        <h1 class="posts-title">Latest</h1>
+        <hr class="divider" />
+
+<!-- copy from  -->
+        <div class="post-card">
+          <img src="C:\Users\csl\Desktop\BubuScripts\THumnails\Blue.jpg" alt="Post Thumbnail" class="post-image"/>
+
+          <div class="post-details">
+            <h2 class="post-title">Animated Heart 1</h2>
+            <p class="post-desc">
+              A stunning heart animation made with HTML, CSS & JS. The heart smoothly forms on screen, closes, and repeats in a loop — perfect for Valentine projects or creative front-end effects<a href="#" class="read-more-link">Read more...</a>
+            </p>
+          </div>
+          <div class="post-date">8 July 2025</div>
+        </div>
+ <hr class="divider" />  
+ <!-- copy till here  -->
+
+ <div class="post-card">
+          <img src="C:\Users\csl\Desktop\BubuScripts\THumnails\Red.jpg" alt="Post Thumbnail" class="post-image"/>
+
+          <div class="post-details">
+            <h2 class="post-title">Animated Heart 2</h2>
+            <p class="post-desc">
+              A stunning heart animation made with HTML, CSS & JS. The heart smoothly forms on screen, closes, and repeats in a loop — perfect for Valentine projects or creative front-end effects<a href="#" class="read-more-link">Read more...</a>
+            </p>
+          </div>
+          <div class="post-date">8 July 2025</div>
+        </div>
+ <hr class="divider" /> 
+  
+ <div class="post-card">
+          <img src="C:\Users\csl\Desktop\BubuScripts\THumnails\Purple.jpg" alt="Post Thumbnail" class="post-image"/>
+
+          <div class="post-details">
+            <h2 class="post-title">Animated Heart 3</h2>
+            <p class="post-desc">
+              A stunning heart animation made with HTML, CSS & JS. The heart smoothly forms on screen, closes, and repeats in a loop — perfect for Valentine projects or creative front-end effects<a href="#" class="read-more-link">Read more...</a>
+            </p>
+          </div>
+          <div class="post-date">8 July 2025</div>
+        </div>
+ <hr class="divider" /> 
+
+ <div class="post-card">
+          <img src="C:\Users\csl\Desktop\BubuScripts\THumnails\Yellow.jpg" alt="Post Thumbnail" class="post-image"/>
+
+          <div class="post-details">
+            <h2 class="post-title">Animated Heart 4</h2>
+            <p class="post-desc">
+              A stunning heart animation made with HTML, CSS & JS. The heart smoothly forms on screen, closes, and repeats in a loop — perfect for Valentine projects or creative front-end effects<a href="#" class="read-more-link">Read more...</a>
+            </p>
+          </div>
+          <div class="post-date">8 July 2025</div>
+        </div>
+ <hr class="divider" /> 
+
+        <div class="post-card">
+          <img src="C:\Users\csl\Desktop\BubuScripts\THumnails\Pink.jpg" alt="Post Thumbnail" class="post-image"/>
+
+          <div class="post-details">
+            <h2 class="post-title">Animated Heart 5</h2>
+            <p class="post-desc">
+              A stunning heart animation made with HTML, CSS & JS. The heart smoothly forms on screen, closes, and repeats in a loop — perfect for Valentine projects or creative front-end effects<a href="#" class="read-more-link">Read more...</a>
+            </p>
+          </div>
+          <div class="post-date">8 July 2025</div>
+        </div>
+ <hr class="divider" />
+
+
+
+      </div>
+    </div>
+  </main>
+
+  <!-- 🔻 FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-socials">
+      <a href="mailto:bubuscripts@email.com" id="emailIcon">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\mails.png" alt="Email" />
+      </a>
+      <a href="https://instagram.com/bubuscripts" target="_blank">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\instagram.png" alt="Instagram"/>
+      </a>
+      <a href="https://youtube.com/@bubuscripts" target="_blank">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\youtube.png" alt="YouTube"/>
+      </a>
+    </div>
+
+    <a href="#" target="main">
+      <div class="footer-logo">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\Logo.png" alt="BubuScripts Logo"/>
+      </div>
+    </a>
+  </footer>
+
+  <!-- 🔲 POPUPS -->
+  <div class="popup-overlay" id="overlay"></div>
+
+  <!-- 📧 Email Box -->
+  <div class="popup-box" id="emailBox">
+    <button class="popup-close" id="closeEmailBtn">❮</button>
+    <h3>Email Us</h3>
+    <p>You can reach us at <strong>bubuscripts@email.com</strong></p>
+  </div>
+
+  <!-- 📱 Contact Us Box -->
+  <div class="popup-box" id="contactBox">
+    <button class="popup-close" id="closeContactBtn">❮</button>
+    <h3>Contact Us</h3>
+    <div class="popup-icons">
+      <a href="https://instagram.com/bubuscripts" target="_blank">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\instagram.png" alt="Instagram"/>
+      </a>
+      <a href="https://youtube.com/@bubuscripts" target="_blank">
+        <img src="C:\Users\csl\Desktop\BubuScripts\Png's\youtube.png" alt="YouTube"/>
+      </a>
+      <a href="#" id="contactPopupEmailIcon" title="Email">
+  <img src="C:/Users/csl/Desktop/BubuScripts/Png's/mails.png" alt="Email" />
+</a>
+
+    </div>
+  </div>
+
+  <!-- 📜 Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
